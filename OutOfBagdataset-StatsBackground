@@ -10,3 +10,13 @@ https://en.wikipedia.org/wiki/Out-of-bag_error#:~:text=Out%2Dof%2Dbag%20dataset,
 Over many iterations, the two methods should produce a very similar error estimate. 
 That is, once the OOB error stabilizes, it will converge to the cross-validation (specifically leave-one-out cross-validation)error.[3] 
 The advantage of the OOB method is that it requires less computation and allows one to test the model as it is being trained."
+
+Things that are not clear to me regarding the OOB method
+- I get you bootstrap sample -> what stays out = OOB
+- so you end up with 1 OOB dataset PER bootstrap sample = decision tree
+HOWEVER
+- do you 
+a) run all OOB through ALL decision trees?
+b) combine the OOBs into one big dataset you run through ALL decision trees
+c) run every OOB only on the decision tree for whihc it was excluded? 
+d) ... 
