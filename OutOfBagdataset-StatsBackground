@@ -18,5 +18,10 @@ HOWEVER
 - do you 
 a) run all OOB through ALL decision trees?
 b) combine the OOBs into one big dataset you run through ALL decision trees
-c) run every OOB only on the decision tree for whihc it was excluded? 
-d) ... 
+c) run every OOB only on the decision tree for which it was excluded? 
+d) Run an OOB datapoint only on those trees in which it did not appear?
+e) ... 
+
+the elements of statistical learning says (I think this is inline with d) ?)
+"For each observation zi = (xi, yi), construct its random forest predictor 
+by averaging only those trees corresponding to bootstrap samples in which zi did not appear"
