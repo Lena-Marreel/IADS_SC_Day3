@@ -1,3 +1,9 @@
+General note/realization on Random forests 
+= not a method to find ' the best decision tree' 
+= a method to use SEVERAL trees to generate an answer. -> by using their agregated/overall answers. 
+Specifically majority count/clasification e.g. if most of the trees gave an output ' yes diabateic' for a certain datapoint
+than that datapoint is probably diabetic. 
+
 Help for Machine leanring (decision trees) Came up when we looked into Out of Bag datasets. 
 (ctrl+F -> ' out of bag'  or 'bagging' or 'random forsets')
 Links -> elements of statistical learning
