@@ -3,3 +3,10 @@ Links -> elements of statistical learning
 https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf
 https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12.pdf
 https://hastie.su.domains/ElemStatLearn/
+see also wiki
+https://en.wikipedia.org/wiki/Out-of-bag_error#:~:text=Out%2Dof%2Dbag%20dataset,-When%20bootstrap%20aggregating&text=The%20out%2Dof%2Dbag%20set,and%20OOB%20sets%20are%20created.
+
+" Out-of-bag error and cross-validation (CV) are different methods of measuring the error estimate of a machine learning model.
+Over many iterations, the two methods should produce a very similar error estimate. 
+That is, once the OOB error stabilizes, it will converge to the cross-validation (specifically leave-one-out cross-validation)error.[3] 
+The advantage of the OOB method is that it requires less computation and allows one to test the model as it is being trained."
