@@ -11,6 +11,10 @@ Over many iterations, the two methods should produce a very similar error estima
 That is, once the OOB error stabilizes, it will converge to the cross-validation (specifically leave-one-out cross-validation)error.[3] 
 The advantage of the OOB method is that it requires less computation and allows one to test the model as it is being trained."
 
+" An oob error estimate is almost identical to that obtained by N-fold crossvalidation.
+Hence unlike many other nonlinear estimators, random forests can be fit in one sequence, 
+with cross-validation being performed along the way. Once the oob error stabilizes, the training can be terminated."
+
 Things that are not clear to me regarding the OOB method
 - I get you bootstrap sample -> what stays out = OOB
 - so you end up with 1 OOB dataset PER bootstrap sample = decision tree
