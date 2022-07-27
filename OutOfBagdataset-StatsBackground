@@ -1,10 +1,13 @@
-Help for Machine leanring (decision trees) Came up when we looked into Out of Bag datasets. (ctrl+F)
+Help for Machine leanring (decision trees) Came up when we looked into Out of Bag datasets. 
+(ctrl+F -> ' out of bag'  or 'bagging' or 'random forsets')
 Links -> elements of statistical learning
 https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf
 https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12.pdf
 https://hastie.su.domains/ElemStatLearn/
 see also wiki
 https://en.wikipedia.org/wiki/Out-of-bag_error#:~:text=Out%2Dof%2Dbag%20dataset,-When%20bootstrap%20aggregating&text=The%20out%2Dof%2Dbag%20set,and%20OOB%20sets%20are%20created.
+another book
+https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf
 
 " Out-of-bag error and cross-validation (CV) are different methods of measuring the error estimate of a machine learning model.
 Over many iterations, the two methods should produce a very similar error estimate. 
